@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+}
+
+/* Tablet (xs)  */
+@media only screen and (min-width: 280px) {
+	.innerDiv {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	header .innerDiv {
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+}
+
+/* Tablet (sm)  */
+@media only screen and (min-width: 640px) {
+	.innerDiv {
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+	header .innerDiv {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+}
+
+/* Tablet (md)  */
+@media only screen and (min-width: 768px) {
+	.innerDiv {
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+	header .innerDiv {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+}
+
+/* Desktop (lg) */
+@media only screen and (min-width: 1024px) {
+	.innerDiv {
+		padding-left: 80px;
+		padding-right: 80px;
+	}
+	header .innerDiv {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+}
+
+/* Desktop (xl)  */
+@media only screen and (min-width: 1280px) {
+	.innerDiv {
+		max-width: calc(1280px + 160px);
+		margin: 0 auto;
+		padding-left: 80px;
+		padding-right: 80px;
+	}
+	header .innerDiv {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+}
+
+/* Desktop (2xl)  */
+@media only screen and (min-width: 1536px) {
+	.innerDiv {
+		max-width: 1280px;
+		margin: 0 auto;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	header .innerDiv {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+}
+
+/* Max Width 2560px */
+main,
+header,
+footer {
+	max-width: 2560px;
+	margin: 0 auto;
+}
