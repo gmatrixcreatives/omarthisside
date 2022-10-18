@@ -9,8 +9,8 @@ function Work({key,title, image, description, services, logo, link}) {
   return (
 
 
-    <div className='mt-5 sm:mt-0 w-full group sm:hover:scale-105 transition-all duration-500' key={key}>
-          <a href={link} target="_black"  rel="noreferrer">
+    <div  className='mt-5 sm:mt-0 w-full group sm:hover:scale-105 transition-all duration-500'>
+          <a href={link} target="_black"  rel="noreferrer" >
           <div className='relative'>
             
             <div className='bg-gradient-to-b from-[#000000a5] absolute top-0 left-0 h-[20%] w-[100%] z-30' />
@@ -19,6 +19,7 @@ function Work({key,title, image, description, services, logo, link}) {
             <div className='h-full w-full relative'>
               
               <Image
+                  key={key}
                   src={image}
                   className="object-cover z-20"
                   width={1000}
