@@ -8,7 +8,7 @@ import Logo from '../assets/images/logo-white.png'
 function Navbar({setShowAbout}) {
 
   return (
-    <div className=''>
+    <div id="navigation">
         <nav className='flex flex-col pt-6 pb-2 px-4 items-center  first-letter: sm:flex-row w-full justify-between max-w-[1280px] mx-auto '>
 
             <div className='w-[140px]'>
@@ -31,11 +31,11 @@ function Navbar({setShowAbout}) {
                 </a>
                 
                 <a href="#work-section" rel="noreferrer">
-                  <li className='hover:scale-105 transition-all'>Portfolio</li>
+                  <li className='hover:scale-105 transition-all select-none'>Portfolio</li>
                   
                 </a>
                 <a href="mailto:omarthisside@gmail.com" rel="noreferrer"> 
-                   <li className='hover:scale-105 transition-all'>Contact</li>
+                   <li className='hover:scale-105 transition-all select-none'>Contact</li>
                 </a>
 
             </ul>

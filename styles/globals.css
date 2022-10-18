@@ -24,6 +24,8 @@ input,
 textarea,
 button,
 select,
+ul, 
+li,
 a {
   -webkit-tap-highlight-color: rgba(0,0,0,0) !important;
 }
