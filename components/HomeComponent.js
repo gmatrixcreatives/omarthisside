@@ -47,7 +47,7 @@ function HomeComponent() {
           </div>
 
         {/* Col 2 */}
-        <div className='sm:w-5/12 order-1 sm:order-2 relative'>
+        <div className='sm:w-5/12 order-1 sm:order-2 relative '>
             <Image 
               src={HeroImage}
               alt="Omar - Founder, Checks & Cross"

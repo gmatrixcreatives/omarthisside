@@ -43,7 +43,7 @@ function About({setShowAbout, showAbout}) {
               <div>
                 <p className=' text-white text-lg sm:text-xl '>Interpersonal</p>
                 <ul className='child:text-sm space-y-2 mt-2 '> 
-                  <li>Quick Lerner</li>
+                  <li>Quick Learner</li>
                   <li>Problem-Solving</li>
                   <li>Good Listner</li>
                 </ul>
@@ -105,7 +105,7 @@ function About({setShowAbout, showAbout}) {
 
           {/* Download My CV */}
           <div className='mt-12 flex justify-center'>
-             <button className=' w-[240px] text-white border px-8 py-3 font-bold hover:scale-105 transition-all animate-pulse'>CURRICULUM VITAE</button>
+             <a href="https://checksandcross.com/omar-this-side/curriculum-vitae.pdf" target="_blank" rel="noreferrer" className=' w-[240px] text-white border px-8 py-3 font-bold hover:scale-105 transition-all animate-pulse'>CURRICULUM VITAE</a>
           </div>
 
 
