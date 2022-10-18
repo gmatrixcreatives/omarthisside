@@ -115,7 +115,7 @@ function HomeComponent() {
               
         <div className="relative ">
 
-          <div className='sm:hidden bg-gradient-to-l from-[#071026] absolute bottom-[-3px] right-0 h-full w-2/12 flex items-end justify-end' />
+          <div className='sm:hidden bg-gradient-to-l from-[#071026] absolute bottom-[0] right-[-4px] h-full w-2/12 flex items-end justify-end' />
   
 
             <div className="flex text-left mt-12 child:p-5 overflow-hidden overflow-x-scroll child:min-w-[280px] sm:child:w-4/12 space-x-6 scrollbar-hide child:max-w-[80%]">
