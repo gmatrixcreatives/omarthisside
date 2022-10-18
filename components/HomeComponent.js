@@ -161,7 +161,7 @@ function HomeComponent() {
             <div className='max-w-[200px] mx-auto text-center mb-8 animate-pulse'>
               <a href="#navigation"  className=''>
               <ArrowUpIcon className="ml-1 inline-block h-6 w-6"/>
-              <p>Back to Top</p>
+              <p className='text-sm'>Back to top</p>
               </a>
             </div>
           
