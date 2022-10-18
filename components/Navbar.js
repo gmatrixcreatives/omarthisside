@@ -3,7 +3,7 @@ import Link from 'next/link';
 import React, { useState } from 'react'
 
 // Images
-import Logo from '../assets/images/logo-white.png'
+import Logo from '../assets/images/logo-white-simple.png'
 
 function Navbar({setShowAbout}) {
 
@@ -11,7 +11,7 @@ function Navbar({setShowAbout}) {
     <div id="navigation">
         <nav className='flex flex-col pt-6 pb-2 px-4 items-center  first-letter: sm:flex-row w-full justify-between max-w-[1280px] mx-auto '>
 
-            <div className='w-[140px]'>
+            <div className='w-[120px]'>
                 <Image 
                     src={Logo}
                     className="object-contain"
