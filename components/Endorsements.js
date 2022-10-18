@@ -47,7 +47,7 @@ function Endorsements() {
                                                                     <Image
                                                                         src={endorsement.image}
                                                                         width={200} height={200}
-                                                                        className="object-contain z-30 rounded-full"
+                                                                        className="object-contain absolute z-30 rounded-full"
                                                                         alt={"Client Image"}
                                                                     />
                                                                     <div className="animate-pulse absolute top-0 bottom-0  z-10 left-0 rounded-full right-0 h-full w-full bg-gray-700"></div>
