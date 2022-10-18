@@ -32,7 +32,7 @@ function About({setShowAbout, showAbout}) {
         <div className='max-w-3xl mx-auto z-50 p-5 mt-10  text-gray-400'>
           {/* Work */}
           <h1 className='font-bold text-3xl text-white'>Work.</h1>
-          <p className='text-lg sm:text-xl leading-7 text-gray-400 mt-2 text-left'>As a designer I help early stage startups and companies from branding to website design and development. I&apos;ve had the pleasure to work with organizations like Indicc Associates, International Summer School, Esya Centre, etc.</p>
+          <p className='text-lg sm:text-xl leading-7 text-gray-400 mt-2 text-left'>As a designer I help early stage startups and companies from branding to design and development. I&apos;ve had the pleasure to work with organizations like Indicc Associates, International Summer School, Esya Centre, etc.</p>
 
           {/* Email Me */}
           <p className='text-lg sm:text-xl leading-7 mt-8 group'><a className='text-white underline group-hover:scale-110 transition-all animate-pulse ' href='mailto:omarthisside@gmail.com' target="_blank" rel="noreferrer">Email Me</a> if you think we should be working together on a project.</p>
