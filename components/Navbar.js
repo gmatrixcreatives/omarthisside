@@ -34,7 +34,7 @@ function Navbar({setShowAbout}) {
                   <li className='hover:scale-105 transition-all select-none'>Portfolio</li>
                   
                 </a>
-                <a href="https://wa.me/919911058036" rel="noreferrer"> 
+                <a href="mailto:omarthisside@gmail.com" rel="noreferrer"> 
                    <li className='hover:scale-105 transition-all select-none'>Contact</li>
                 </a>
 
