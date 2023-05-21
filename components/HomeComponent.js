@@ -43,7 +43,7 @@ function HomeComponent() {
             <p className='text-[26px] mt-5 sm:mt-0'>Hi, I&apos;m Omar</p>
             <h1 className='text-[42px] font-bold leading-tight mt-2 md:text-[72px]'>Think. Innovate. Design.</h1>
             <p className='mt-4 text-gray-400 max-w-lg sm:text-left'>I am a designer based in India with 4+ years of experience in creating minimal, bespoke and human-centered designs and animations.</p>
-            <a href="mailto:omarthisside@gmail.com" className='max-w-[260px] whitespace-nowrap z-10 mx-auto sm:mx-0 mt-8 bg-white px-6 py-3 font-bold text-[#071026] hover:scale-105 transition-all'>REQUEST A PROPOSAL  <ArrowRightIcon className="ml-1 inline-block h-4 w-4"/></a>
+            <a href="https://wa.me/919911058036" className='max-w-[260px] whitespace-nowrap z-10 mx-auto sm:mx-0 mt-8 bg-white px-6 py-3 font-bold text-[#071026] hover:scale-105 transition-all'>REQUEST A PROPOSAL  <ArrowRightIcon className="ml-1 inline-block h-4 w-4"/></a>
           </div>
 
         {/* Col 2 */}
@@ -137,7 +137,7 @@ function HomeComponent() {
             </div>
 
             <div className='mt-8 hover:scale-105 transition-all inline-block'>
-              <a href="mailto:omarthisside@gmail.com" className='max-w-[260px] z-10 mx-auto sm:mx-0  bg-white px-6 py-3 font-bold text-[#071026] '>LET&apos;S TALK  <ArrowRightIcon className="ml-1 inline-block h-4 w-4"/></a>
+              <a href="https://wa.me/919911058036" className='max-w-[260px] z-10 mx-auto sm:mx-0  bg-white px-6 py-3 font-bold text-[#071026] '>LET&apos;S TALK  <ArrowRightIcon className="ml-1 inline-block h-4 w-4"/></a>
             </div>
            
 
