@@ -25,7 +25,7 @@ function Clients() {
 
 
       <div className="relative ">
-         <div className='bg-gradient-to-l from-[#071026] absolute top-0 right-[-3px] h-full w-2/12 z-50 sm:hidden' />
+         <div className='bg-gradient-to-l from-[#071026] absolute top-0 right-[-3px] h-full w-2/12 z-50 sm:hidden ' />
          <div className='bg-gradient-to-r from-[#071026] absolute top-0 left-[-3px] h-full w-2/12 z-50 sm:hidden'  />
         <div className='overflow-hidden overflow-x-scroll scrollbar-hide relative flex items-center '>
           <div className='flex items-center whitespace-nowrap text-xl space-x-8 sm:px-15 scrollbar-hide mt-10 sm:grid sm:grid-cols-4 sm:gap-8 sm:max-w-4xl sm:mx-auto animate-marquee  sm:animate-none child:min-w-[150px] ch px-[20px] '>
@@ -104,8 +104,8 @@ function Clients() {
         </div>
       </div>
 
-    <div className='mt-12 hover:scale-105 transition-all inline-block'>
-    <a href="https://wa.me/919911058036" className='max-w-[300px] z-10 mx-auto sm:mx-0 mt-5 border-[1px] px-6 py-3 font-bold text-white l'> LET&apos;S WORK TOGETHER  <ArrowRightIcon className="ml-1 inline-block h-4 w-4"/></a>
+    <div className='mt-12 hover:scale-105 transition-all inline-block '>
+    <a href="https://wa.me/919911058036" className='max-w-[300px] z-10 mx-auto sm:mx-0 mt-5 border-[1px] px-6 py-3 font-bold text-white rounded-[25px]'> LET&apos;S WORK TOGETHER  <ArrowRightIcon className="ml-1 inline-block h-4 w-4"/></a>
     </div>
       
 

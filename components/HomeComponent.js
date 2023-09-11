@@ -43,7 +43,7 @@ function HomeComponent() {
             <p className='text-[26px] mt-5 sm:mt-0'>Hi, I&apos;m Omar</p>
             <h1 className='text-[42px] font-bold leading-tight mt-2 md:text-[72px]'>Think. Innovate. Design.</h1>
             <p className='mt-4 text-gray-400 max-w-lg sm:text-left'>I am a designer based in India with 4+ years of experience in creating minimal, bespoke and human-centered designs and animations.</p>
-            <a href="https://wa.me/919911058036" className='max-w-[260px] whitespace-nowrap z-10 mx-auto sm:mx-0 mt-8 bg-white px-6 py-3 font-bold text-[#071026] hover:scale-105 transition-all'>REQUEST A PROPOSAL  <ArrowRightIcon className="ml-1 inline-block h-4 w-4"/></a>
+            <a href="https://wa.me/919911058036" className='rounded-[40px] max-w-[260px] whitespace-nowrap z-10 mx-auto sm:mx-0 mt-8 bg-white px-6 py-3 font-bold text-[#071026] hover:scale-105 transition-all'>REQUEST A PROPOSAL  <ArrowRightIcon className="ml-1 inline-block h-4 w-4"/></a>
           </div>
 
         {/* Col 2 */}
@@ -86,7 +86,7 @@ function HomeComponent() {
          <h3 className='font-bold text-[26px] sm:text-[32px] max-w-lg mx-auto'>Recent Work</h3>
          <p className='text-gray-400 mt-2 max-w-lg mx-auto'>Experienced in creating custom websites using HTML & CSS and also can create websites on WordPress, Wix, SquareSpace and many more CMS & page builders.</p>
 
-        <div className="sm:grid sm:grid-cols-2 sm:gap-5 items-center justify-center text-left mt-12">
+        <div className="sm:grid sm:grid-cols-2 sm:gap-5 items-center justify-center text-left mt-12 ">
 
             {
               work.map((one)=>
@@ -118,7 +118,7 @@ function HomeComponent() {
           <div className='sm:hidden bg-gradient-to-l from-[#071026] absolute bottom-[0] right-[-4px] h-full w-2/12 flex items-end justify-end' />
   
 
-            <div className="flex text-left mt-12 child:p-5 overflow-hidden overflow-x-scroll child:min-w-[280px] sm:child:w-4/12 space-x-6 scrollbar-hide child:max-w-[80%]">
+            <div className="flex text-left mt-12 child:p-5 overflow-hidden overflow-x-scroll child:min-w-[280px] sm:child:w-4/12 space-x-6 scrollbar-hide child:max-w-[80%] child:py-[60px] child:rounded-[30px]">
               <div className='bg-[#182033]'>
                 <h1 className='font-bold text-5xl'>01</h1>
                 <p className='font-bold text-[24px]  mt-3'>UX/UI</p>
@@ -137,7 +137,7 @@ function HomeComponent() {
             </div>
 
             <div className='mt-8 hover:scale-105 transition-all inline-block'>
-              <a href="https://wa.me/919911058036" className='max-w-[260px] z-10 mx-auto sm:mx-0  bg-white px-6 py-3 font-bold text-[#071026] '>LET&apos;S TALK  <ArrowRightIcon className="ml-1 inline-block h-4 w-4"/></a>
+              <a href="https://wa.me/919911058036" className='max-w-[260px] z-10 mx-auto sm:mx-0  bg-white px-6 py-3 font-bold text-[#071026] rounded-[25px]'>LET&apos;S TALK  <ArrowRightIcon className="ml-1 inline-block h-4 w-4"/></a>
             </div>
            
 

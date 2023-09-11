@@ -9,9 +9,9 @@ function Work({key,title, image, description, services, logo, link}) {
   return (
 
 
-    <div  className='mt-5 sm:mt-0 w-full group sm:hover:scale-105 transition-all duration-500'>
+    <div  className='mt-5 sm:mt-0 w-full group sm:hover:scale-105 transition-all duration-500 rounded-[35px] overflow-hidden'>
           <a href={link} target="_black"  rel="noreferrer" >
-          <div className='relative'>
+          <div className='relative '>
             
             <div className='bg-gradient-to-b from-[#000000a5] absolute top-0 left-0 h-[20%] w-[100%] z-30' />
             <div className='bg-gradient-to-t from-[#000000d9] absolute bottom-[6px] left-0 h-[50%] w-full z-30' />
@@ -21,13 +21,13 @@ function Work({key,title, image, description, services, logo, link}) {
               <Image
                   key={key}
                   src={image}
-                  className="object-cover z-20"
+                  className="object-cover z-20 "
                   width={1000}
                   height={1000}
                   alt={image}
                 />
 
-                <div className='  bg-gray-800 animate-pulse absolute  top-0 right-0 left-0 z-10 bottom-[7px]'></div>
+                <div className='  bg-gray-800 animate-pulse absolute  top-0 right-0 left-0 z-10 bottom-[6px]'></div>
             
             </div>
             

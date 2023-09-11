@@ -19,12 +19,12 @@
     },
     {
         "_id":"3",
-        "title":"Go Steam",
-        "desc":"Steam Washing Services, Canada",
-        "image":"https://checksandcross.com/omar-this-side/work/gosteam.png",
-        "logo":"https://checksandcross.com/omar-this-side/work/logos/gosteam.png",
-        "services":["Wix Website","Branding","Graphics"],
-        "link":"https://gosteam.ca"
+        "title":"Happimindset",
+        "desc":"A lifestyle blog focusing on spreading love, happiness & positivity",
+        "image":"https://checksandcross.com/omar-this-side/work/happimindset.png",
+        "logo":"https://checksandcross.com/omar-this-side/work/logos/happimindsetlogo.png",
+        "services":["WordPress","Branding","Graphics"],
+        "link":"https://happimindset.com"
     },
     {
         "_id":"4",
@@ -34,5 +34,23 @@
         "logo":"https://checksandcross.com/omar-this-side/work/logos/iss.png",
         "services":["SquareSpace","Website","Graphics"],
         "link":"https://issnewdelhi.in"
+    },
+    {
+        "_id":"5",
+        "title":"Marboul Coaching",
+        "desc":"Certified NLP (Neuro Linguistic Programming) Practitioner specialising in mindset, self love and manifestation.",
+        "image":"https://checksandcross.com/omar-this-side/work/marboulcoaching.png",
+        "logo":"https://checksandcross.com/omar-this-side/work/logos/iss.png",
+        "services":["SquareSpace","Website","Graphics"],
+        "link":"https://www.marboulcoaching.com/"
+    },
+    {
+        "_id":"6",
+        "title":"Om Dhungel",
+        "desc":"Certified NLP Practitioner specialising in mindset, self love and manifestation.",
+        "image":"https://checksandcross.com/omar-this-side/work/om.png",
+        "logo":"https://checksandcross.com/omar-this-side/work/logos/iss.png",
+        "services":["WordPress","Website","Graphics"],
+        "link":"https://www.omdhungel.com/"
     }
 ]

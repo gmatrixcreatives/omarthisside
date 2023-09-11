@@ -105,7 +105,7 @@ function About({setShowAbout, showAbout}) {
 
           {/* Download My CV */}
           <div className='mt-12 flex justify-center'>
-             <a href="https://checksandcross.com/omar-this-side/curriculum-vitae.pdf" target="_blank" rel="noreferrer" className=' w-[240px] text-white border px-8 py-3 font-bold hover:scale-105 transition-all animate-pulse'>CURRICULUM VITAE</a>
+             <a href="https://checksandcross.com/omar-this-side/curriculum-vitae.pdf" target="_blank" rel="noreferrer" className=' w-[240px] text-white border px-8 py-3 font-bold hover:scale-105 transition-all animate-pulse rounded-[25px]'>CURRICULUM VITAE</a>
           </div>
 
 
